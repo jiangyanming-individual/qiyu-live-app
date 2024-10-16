@@ -1,0 +1,25 @@
+# serve 的配置
+server:
+  port: 8081
+
+# Spring
+spring:
+  application:
+    name: qiyu-live-api # 调用接口
+  # Spring cloud
+  cloud:
+    nacos:
+      username: nacos
+      password: nacos
+      discovery:
+        server-addr: localhost:8848
+        namespace: qiyu-live-test #自定义的命名空间
+
+# 消费者端：
+dubbo:
+  application:
+    name: qiyu-live-api
+    logger: slf4j
+    qos-port: 33333
+  registry:
+    address: nacos://${nacos.address:127.0.0.1}:8848?username=nacos&password=nacos
