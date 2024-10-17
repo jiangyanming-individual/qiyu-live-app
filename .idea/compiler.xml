@@ -3,6 +3,7 @@
   <component name="CompilerConfiguration">
     <excludeFromCompile>
       <directory url="file://$PROJECT_DIR$/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/qiyu-live-common/src/main/resources/archetype-resources" includeSubdirectories="true" />
     </excludeFromCompile>
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
@@ -10,10 +11,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="qiyu-live-user-provider" />
         <module name="qiyu-live-user-interface" />
         <module name="qiyu-live-api" />
+        <module name="qiyu-live-user-provider" />
+        <module name="qiyu-live-app-common" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="qiyu-live-common" target="17" />
+      <module name="qiyu-live-common-interface" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

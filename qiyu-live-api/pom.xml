@@ -16,11 +16,12 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>qiyu-live-api</name>
     <description>qiyu-live-api</description>
+
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <spring-boot.version>2.6.13</spring-boot.version>
+        <spring-boot.version>3.0.2</spring-boot.version>
     </properties>
     <dependencies>
         <!--        dubbo-->
@@ -42,16 +43,14 @@
             <artifactId>qiyu-live-user-interface</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+
+        <!--        通用组件-->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-            <exclusions>
-                <exclusion>
-                    <artifactId>log4j-to-slf4j</artifactId>
-                    <groupId>org.apache.logging.log4j</groupId>
-                </exclusion>
-            </exclusions>
+            <groupId>com.jiang</groupId>
+            <artifactId>qiyu-live-app-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
+
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -75,23 +74,11 @@
             <artifactId>spring-boot-configuration-processor</artifactId>
             <optional>true</optional>
         </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <optional>true</optional>
-        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
-        </dependency>
-
-
-        <!--        rpc调用接口-->
-        <dependency>
-            <groupId>com.jiang</groupId>
-            <artifactId>qiyu-live-user-interface</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
     </dependencies>

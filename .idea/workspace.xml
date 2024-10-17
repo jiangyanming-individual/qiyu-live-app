@@ -4,7 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ce51c7f-8524-4aac-9c46-2b9c8d9ed64e" name="Changes" comment="" />
+    <list default="true" id="4ce51c7f-8524-4aac-9c46-2b9c8d9ed64e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-app-common.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-app-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-app-common/src/main/java/com/jiang/qiyu/common/common/PageRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-app-common/src/main/java/com/jiang/qiyu/common/constant/CommonConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-app-common/src/main/java/com/jiang/qiyu/common/dto/user/UserAddRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-app-common/src/main/java/com/jiang/qiyu/common/dto/user/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-app-common/src/main/java/com/jiang/qiyu/common/dto/user/UserLoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-app-common/src/main/java/com/jiang/qiyu/common/dto/user/UserQueryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-app-common/src/main/java/com/jiang/qiyu/common/dto/user/UserRegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-app-common/src/main/java/com/jiang/qiyu/common/dto/user/UserUpdateMyRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-app-common/src/main/java/com/jiang/qiyu/common/dto/user/UserUpdateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-app-common/src/main/java/com/jiang/qiyu/common/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-app-common/src/main/java/com/jiang/qiyu/common/enums/FileUploadBizEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-app-common/src/main/java/com/jiang/qiyu/common/enums/JudgeInfoMessageEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-app-common/src/main/java/com/jiang/qiyu/common/enums/QuestionSubmitLanguageEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-app-common/src/main/java/com/jiang/qiyu/common/enums/QuestionSubmitStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-app-common/src/main/java/com/jiang/qiyu/common/enums/UserRoleEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-app-common/src/main/java/com/jiang/qiyu/common/utils/ConvertBeanUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-app-common/src/main/java/com/jiang/qiyu/common/vo/LoginUserVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-app-common/src/main/java/com/jiang/qiyu/common/vo/UserVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-app-common/src/test/java/com/jiang/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-user-provider/src/main/java/com/jiang/qiyuliveuserprovider/mapper/IUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-user-provider/src/main/java/com/jiang/qiyuliveuserprovider/rpc/UserRpcImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-user-provider/src/main/java/com/jiang/qiyuliveuserprovider/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-user-provider/src/main/java/com/jiang/qiyuliveuserprovider/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-user-provider/src/main/resources/qiyu-db-sharding.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-api/src/main/java/com/jiang/qiyuliveapi/QiyuLiveApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-api/src/main/java/com/jiang/qiyuliveapi/QiyuLiveApiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-api/src/main/java/com/jiang/qiyuliveapi/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-api/src/main/java/com/jiang/qiyuliveapi/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-api/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-user-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-user-interface/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-user-interface/src/main/java/com/jiang/qiyuliveuserinterface/IUserRpc/DemoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-user-interface/src/main/java/com/jiang/qiyuliveuserinterface/rpc/DemoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-user-interface/src/main/java/com/jiang/qiyuliveuserinterface/IUserRpc/IUserRpc.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-user-interface/src/main/java/com/jiang/qiyuliveuserinterface/rpc/IUserRpc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-user-interface/src/main/java/com/jiang/qiyuliveuserinterface/QiyuLiveUserInterfaceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-user-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-user-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-user-provider/src/main/java/com/jiang/qiyuliveuserprovider/QiyuLiveUserProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-user-provider/src/main/java/com/jiang/qiyuliveuserprovider/QiyuLiveUserProviderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-user-provider/src/main/java/com/jiang/qiyuliveuserprovider/service/DemoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-user-provider/src/main/java/com/jiang/qiyuliveuserprovider/rpc/DemoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-user-provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-user-provider/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +66,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -35,41 +87,77 @@
   "associatedIndex": 4
 }]]></component>
   <component name="ProjectId" id="2nTc9xjHOh7X1OBezEig6XCj9cc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.QiyuLiveApiApplication.executor": "Debug",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.qiyu-live-app [clean].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.QiyuLiveApiApplication.executor": "Debug",
-    "Spring Boot.QiyuLiveUserProviderApplication.executor": "Debug",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.QiyuLiveApiApplication.executor": "Run",
+    "Spring Boot.QiyuLiveUserProviderApplication.executor": "Run",
+    "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/WorkSpace/Java_workspace/qiyu-live-app/qiyu-live-user-provider/src/main/resources",
+    "last_opened_file_path": "D:/WorkSpace/Java_workspace/qiyu-live-app/qiyu-live-app-common/src/main/java/com/jiang/qiyu/common",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "MavenSettings",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace\Java_workspace\qiyu-live-app\qiyu-live-app-common\src\main\java\com\jiang\qiyu\common" />
+      <recent name="D:\WorkSpace\Java_workspace\qiyu-live-app\qiyu-live-common\src\main\java\com\jiang\qiyulivecommon" />
+      <recent name="D:\WorkSpace\Java_workspace\qiyu-live-app\qiyu-live-common-interface\src\main\java\com\jiang\qiyulivecommoninterface" />
       <recent name="D:\WorkSpace\Java_workspace\qiyu-live-app\qiyu-live-user-provider\src\main\resources" />
       <recent name="D:\WorkSpace\Java_workspace\qiyu-live-app\qiyu-live-api\src\main\resources" />
-      <recent name="D:\WorkSpace\Java_workspace\qiyu-live-app\qiyu-live-user-interface\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace\Java_workspace\qiyu-live-app\qiyu-live-user-provider\src\main\java\com\jiang\qiyuliveuserprovider" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jiang.qiyu.common.constant" />
+      <recent name="com.jiang.qiyu.common.common" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.QiyuLiveApiApplication">
+    <configuration name="QiyuLiveApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiang.qiyuliveapi.QiyuLiveApiApplication" />
+      <module name="qiyu-live-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jiang.qiyuliveapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="QiyuLiveApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="qiyu-live-api" />
@@ -102,6 +190,7 @@
       <list>
         <item itemvalue="Spring Boot.QiyuLiveApiApplication" />
         <item itemvalue="Spring Boot.QiyuLiveUserProviderApplication" />
+        <item itemvalue="Application.QiyuLiveApiApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -113,7 +202,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729000361587</updated>
-      <workItem from="1729000363062" duration="10410000" />
+      <workItem from="1729000363062" duration="20626000" />
     </task>
     <servers />
   </component>
